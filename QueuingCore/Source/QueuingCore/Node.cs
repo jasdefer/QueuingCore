@@ -13,12 +13,5 @@ namespace QueuingCore
         }
 
         public int Id { get; set; }
-
-
     }
-
-
-
-
-
 }

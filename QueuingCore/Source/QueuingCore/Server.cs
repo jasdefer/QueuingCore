@@ -7,7 +7,6 @@ namespace QueuingCore
     /// </summary>
     public class Server : IId
     {
-
         public Server(Node node, int id, double startDate = 0.0)
         {
             Node = node ?? throw new ArgumentNullException(nameof(node));
@@ -44,7 +43,5 @@ namespace QueuingCore
         {
             return $"Server {Id} is at Node {Node.Id}";
         }
-
     }
-
 }

@@ -2,8 +2,7 @@
 {
     public class ServiceCentre
     {
-
-        public ServiceCentre(int numberOfServers,int queueingCapacity, bool preempt)
+        public ServiceCentre(int numberOfServers, int queueingCapacity, bool preempt)
         {
             NumberOfServers = numberOfServers;
             QueueingCapacity = queueingCapacity;
@@ -11,16 +10,10 @@
         }
         
         public int NumberOfServers { get; set; }
-
         public int QueueingCapacity { get; set; }
-
         public bool Preempt { get; set; }
 
         //todo: class_change_matrix
         //todo: schedule   
-
-
-
     }
-
 }

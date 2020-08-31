@@ -29,6 +29,5 @@
         public int QueueSizeAtArrival { get; set; }
 
         public int QueueSizeAtDeparture { get; set; }
-
     }
 }
